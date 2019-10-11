@@ -194,12 +194,14 @@ a {
 footer {
   color: #22283B;
   background: #f4f4f4;
-  padding: 20px 0;
+  padding: 5px 0;
   border: 1px double #e0e0e0;
   border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 10px;
+  height: 60px;
 }
 .home .intro h2 {
   padding: 15px;
@@ -230,7 +232,7 @@ footer {
 .home .walk {
   margin-top: 60px;
   border-top: 1px solid #dee2e6;
-  padding: 50px 60px;
+  padding: 50px 60px 50px;
   display: flex;
   justify-content: center;
 }
@@ -242,6 +244,17 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  border-radius: 7px;
+  background-color: black;
+  color: white;
+  width: 85px;
+  height: 30px;
 }
 .home .walk .walk-img {
   width: 46%;
