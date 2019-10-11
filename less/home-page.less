@@ -58,23 +58,19 @@
       }
 
       .btn {
-        //display: flex;
-        //justify-content: center;
-        .btnflex(flex, center);
+        .flex();
         align-items: center;
         font-size: 1.7rem;
         border-radius: 7px;
-        //background-color: black;
-        //color: white;
         .btnstyle(white,black);
-        width: 85px;
-        height: 30px;
+        .btnsize(85px,30px);
       }//closes button
-    :hover {
-          background-color: rgb(56, 48, 48);
-          color: blue;
-      }
-      }//closes walk
+
+      .btn:hover {
+          .btnstyle(blue,slategray);
+      }//closes hover
+    }//closes walk-text
+
     .walk-img {
       width: 46%;
       margin-left: 4%;
@@ -86,22 +82,4 @@
       }
     }//closes walk-img
   }//closes 
-
-  @media (max-width: 500px) {
-    .intro {
-      .flex();
-      flex-wrap: wrap;
-      width: 100%;
-      font-size: 2rem;
-      padding: 2%;
-
-      h2 {
-        font-size: 2rem;
-        width: 100%;
-        text-align: left;
-        padding: 2%;
-        margin: 0 18%;
-      }
-    }
-  }
 }// home

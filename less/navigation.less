@@ -1,26 +1,14 @@
 // Navigation code here
-html {
-	font-size: 62.5%;
-}
-
-//.flex(@display, @justify) {
-    //display: flex;
-    //justify-content: center;
-//}
-
-//.size(@width, @height) {
-    //width: 100%;
-   // height: auto;
-//}
-
 .top {
-    //display: flex;
     flex-direction: column;
-    //justify-content: center;
     align-items: center;
     .size();
     .flex();
-}
+    @media @phone {
+        background-color: yellow;
+        margin: 0;
+        font-size: 1rem;
+    }
 
 h1 {
     font-size: 5rem;
@@ -48,17 +36,3 @@ a {
     .size();
     .flex();
 }
-
-@media (max-width: 500px) {
-    h1 {
-        font-size: 2rem;
-    }
-
-    nav {
-        font-size: 1.5rem;
-    }
-
-    .topimg {
-        height: 100px;
-    }
-}//closes media query
