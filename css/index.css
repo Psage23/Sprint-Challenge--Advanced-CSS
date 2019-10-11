@@ -202,6 +202,17 @@ a {
   display: flex;
   justify-content: center;
 }
+@media (max-width: 500px) {
+  h1 {
+    font-size: 2rem;
+  }
+  nav {
+    font-size: 1.5rem;
+  }
+  .topimg {
+    height: 100px;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -279,4 +290,21 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .home .intro {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: 2rem;
+    padding: 2%;
+  }
+  .home .intro h2 {
+    font-size: 2rem;
+    width: 100%;
+    text-align: left;
+    padding: 2%;
+    margin: 0 18%;
+  }
 }
